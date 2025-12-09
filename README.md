@@ -10,14 +10,6 @@ This means that when you want to install a package:
 - it must be in the package set
 - its dependencies and all the transitive dependencies must be in the package set
 
-## Add your package
-
-This repository aims to be a good collection of packages you can depend on.
-In general we welcome all packages, provided that they follow some guidelines defined in the [contributing guide](CONTRIBUTING.md).
-
-The linked document also contains instructions on how to add new packages to the set, and information on versioning and related policies.
-
-
 ## How do I use this with `vessel`?
 
 You should point the `package-set.dhall` file in your project at a tagged release of this repository. For example:
